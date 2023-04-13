@@ -10,7 +10,7 @@ const Navigation: FC = () => {
                 {
                     navItems.map(navItem => {
                         return (
-                            <li>
+                            <li key={navItem.text}>
                                 <Link
                                     className="transition ease-in-out duration-500 hover:text-cyan-700"
                                     href={`${navItem.url}`}

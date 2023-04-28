@@ -1,0 +1,29 @@
+{
+    "user": [
+        {
+            "id": 1,
+            "fullName": "Parhomenko Alexander",
+            "email": "test@test.com"
+        },
+        {
+            "id": 2,
+            "fullName": "Vasil Petrov",
+            "email": "test2@test2.com"
+        },
+        {
+            "id": 3,
+            "fullName": "Vasil Petrov",
+            "email": "teasdst2@test2.com"
+        },
+        {
+            "id": 4,
+            "fullName": "Vasil Petrov",
+            "email": "te123st2@test2.com"
+        },
+        {
+            "id": 5,
+            "fullName": "Vasil Petrov",
+            "email": "tes123t2@test2.com"
+        }
+    ]
+}

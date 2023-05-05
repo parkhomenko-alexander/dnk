@@ -8,7 +8,7 @@ interface IUser {
 
 const Users: FC = () => {
 
-    const [users, setUsers] = useState<IUser[]>([])
+    let [users, setUsers] = useState<IUser[]>([])
 
     useEffect(() => {
 
@@ -32,7 +32,7 @@ const Users: FC = () => {
     return (
         <>
             <div className="h-screen">
-                <div className="mt-10 flex justify-center items-center tx-xl">
+                <div className="mt-10 flex flex-col justify-center items-center tx-xl">
                     {
                         users.map(user => {
                             return (

@@ -2,7 +2,7 @@ import { FC, MouseEvent, useState } from "react";
 
 const Posts: FC = () => {
 
-    const [isOpen, setIsOpen] = useState(true)
+    const [isOpen, setIsOpen] = useState(false)
 
     const [title, setTitle] = useState('')
     const [text, setText] = useState('')
